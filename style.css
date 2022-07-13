@@ -1,0 +1,104 @@
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.img-bg {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* padding: 100px 0px 0px 100px; */
+}
+
+h1 {
+    
+    width: 60%;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 1.5;
+    padding: 0px 50px 0px 50px;
+}
+
+p {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding: 0px 50px 0px 50px;
+}
+
+.btn-class {
+    padding: 0px 50px 0px 50px;
+}
+
+.btn {
+    /* width: 100%; */
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    font-size: 18px;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+footer {
+    display: flex;
+}
+
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.sosmed i {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
